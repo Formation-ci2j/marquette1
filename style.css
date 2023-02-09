@@ -1,0 +1,59 @@
+
+.h1{
+   font-weight: 50;
+   color: rgb(10, 136, 136);
+   font-size: small;
+ text-align: center;
+}
+
+.body {
+    background-image: url(image4.jpg)  ;
+    background-size:contain ;
+    background-size: cover;
+    text-align: center;
+  }
+
+.nom {
+    background-color: whitesmoke;
+    list-style-type: none;
+    padding: 0;
+    border-radius: 3px;
+  }
+  .formulaire {
+    display: flex;
+    justify-content:center;
+    padding: .8em;
+    text-align: center;
+  }
+  .formulaire > label {
+    padding: .10em 1em .5em 0;
+    flex: 2;
+  }
+  .formulaire> input {
+    flex: 2;
+  }
+  .formulaire> input,
+  .formulaire> button {
+    padding: .5em;
+  }
+
+  .robot {   
+text-align: end;
+text-align: center;
+} 
+
+ .p {
+text-align: left;
+
+}
+ 
+#message {
+padding: 50;
+}
+  .formulaire> button {
+   background: rgb(25, 4, 73);
+   color: white;
+   border: 0;
+  }
+  
+  
